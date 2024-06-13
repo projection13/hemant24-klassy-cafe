@@ -1,0 +1,763 @@
+*{
+ margin:0px;
+ padding:0px;
+ box-sizing:border-box;
+ overflow(y):hidden; 
+}
+.nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background:white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  z-index:100px;
+}
+.nav .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+ .nav .logo img{
+	 width:75%;
+	 height:50%;
+ }
+.nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.nav ul li{
+  margin: 0 0px;
+}
+.nav ul li a{
+  color:red;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.nav ul li a.active,
+.nav ul li a:hover{
+  color: orange;
+  background:#EFDBD7;
+}
+.nav .menu-btn i{
+  color:pink;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+.Home{
+	width:100%;
+	height:auto;
+	margin-top:0px;
+	display:flex;
+	justify-content:none;
+	}
+.img1{
+	float:left;
+	position:relative;
+	width:50%;
+	height:auto;
+}
+.img2{
+	float:right;
+	margin-left:-15%;
+	padding-left:-10%;
+	position:relative;
+	width:100%;
+}
+.logo1{
+	width:50%;
+	position:relative;
+	margin-top:-30%;
+	margin-left:36px;
+	align-items:left;
+}
+.home_p button{
+	position:relative;
+	margin:10px 5px 0px 5px;
+	
+	height:20px;
+	width:30%;
+	background:white;
+	color:red;
+	border-bottom:3px;
+	
+	}
+.home_p {
+	font-size:5px;
+	cursor:pointer;
+	padding:20px 8px;
+	font-size:20px;
+	color:red;
+	padding-bottom:10px;
+	position:relative;
+
+	border:0px;
+	
+}
+	
+.about{
+		width:90%;
+		height:auto;
+		margin-top:25%;
+		margin-left:7%;
+		margin-right:-4%;
+		padding:0px;
+		display:flex;
+		flex-wrap:wrap;
+		gap:10px;
+		justify-content:center;
+		
+	}
+.about_h1{
+		height:100%;
+		width:90%;
+}
+.about_h1 h3{
+	color:red;
+	position:relative;
+	text-align:center;
+	width:45%;
+	padding-left:10px;
+	font-size:15px;
+}
+.about_h1 h1{
+	padding-top:20px;
+	width:100%;
+	height:20%;
+}
+.about_h1 p{
+	margin-top:0%;
+	width:100%;
+	float:left;
+	position:relative;
+	padding-bottom:20%;
+	font-size:20px;
+}
+.video{
+	position:relative;
+	width:80%;
+	height:auto;
+	border-radius:8px;
+	margin-left:10px;
+	top:80px;
+	cursor:pointer;
+	}
+.video img{
+	margin-left:100px;
+		width:400px;
+	height:auto;
+}	
+ .images1{
+	 padding-top:1px ;
+	 padding-left:2px;
+	margin-top:-20%;
+	display:flex;
+	justify-content:center;
+	margin-right:-10%;
+	width:80%;
+	margin:10px;
+	
+}
+ .images1 img{
+	 width:35%;
+	 height:auto;
+	 margin:10px;
+ }
+.cantainer{
+	   margin-top:20%;
+	   background:url(./images/reservation-bg.jpg);
+		background-size:cover;
+		padding:15px 40px;
+		padding-bottom:100px;
+		text-align:center;
+		width:100%;
+	}
+	.cantainer .heading{
+		text-align:center;
+		padding-bottom:20px;
+		color:white;
+		overflow:hidden;
+		
+	}
+	.cantainer .heading h3{
+		font-size:20px;
+		margin-left:-30px;
+		color:red;
+	}
+	.cantainer .heading h3:hover{
+		text-decoration:underline;
+	}
+	.cantainer .heading h1{
+		font-size:26px;
+		
+	}
+	.cantainer .box_cantainer{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		text-align:center;
+		gap:10px;
+		margin-top:30px;
+	}
+	.cantainer .box_cantainer .box{
+					background:red;
+					border:2px solid black;
+					cursor:pointer;
+					margin:8px 30px;
+					padding:10px;
+					
+	}
+	.box:hover{
+		box-shadow:5px 2px 6px black;
+		transform:scale(1.1);
+	}
+.chefs{
+	width:90%;
+	height:auto;
+	margin-top:5%;
+	font-family:sens-serif;
+}
+.ourchef{
+	width:100%;
+	height:10%;
+	text-align:center;
+	margin-left:10%;
+}
+.ourchef h4{
+	color:red;
+}
+.ourchef h4:hover{
+	text-decoration:underline;
+}
+.ourchef h1{
+	padding-top:20px;
+	width:100%;
+	height:40%;
+}
+.image3{
+	display:flex;
+	text-align:center;
+	flex-wrap:wrap;
+	margin-top:50px;
+	justify-content:center;
+	margin-right:-10%;
+}
+.chef01{
+	width:325px;
+	border-radius:8px;
+	overflow:hidden;
+	margin:5px;
+	margin-left:20px;
+	padding:20px;
+	cursor:pointer;
+}
+.chef01 img{
+	width:80%;
+	height:auto;
+}
+.chef01 .name1{
+	
+	padding-left:80px;
+}
+.chef01 .name1 h4{
+	font-size:20px;
+	margin-bottom:5px; 
+}
+.chef01 .name1 p{
+	font-size:15px;
+	
+}
+#contactus{
+				width:100%;
+				background:url(./images/reservation-bg.jpg);
+				background-size:cover;
+				 
+				padding:20px;
+			}
+			.box-wrapper{
+				position:relative;
+				display:table;
+				width:100%;
+				height:auto;
+				margin:auto;
+				margin-top:30px;
+				border-radius:30px;	
+				background:white;
+			}
+			.info{
+					width:35%;
+					height:600px;
+					padding:40px;
+					float:left;
+					display:block;
+					border-radius:20px 10px 10px 30px;
+					background:cyan;
+					color:black;
+					margin-left:5px;
+					
+					
+			}
+			 .title{
+				text-align:center;
+				font-size:20px;
+				letter-spacing:2px;
+			}
+			.sub-info{
+				list-style:none;
+				margin:100px 0px;
+			}
+			.sub-info li{
+				margin-top:40px;
+				font-size:18px;
+				color:red;
+				
+			}
+			.sub-info li i{
+				background:black;
+				padding:10px;
+				border-radius:50%;
+				margin-right:5px;
+			}
+			.sub-info li a{
+				color:black;
+				text-decoration:none;
+			}
+			.sub-info li a:hover{
+				color:red;
+			}
+			.form_wrap{
+				position:relative;
+				width:35%;
+				float:right;
+				padding:30px 25px 35px 10px;
+				border-radius:0px 30px 30px 0px;
+				background:white;
+				margin-right:10%;
+				margin-left:5px;
+			}
+			.form-title{
+				text-align:left;
+				margin-left:23px;
+				font-size:25px;
+				letter-spacing:0.5px;
+				
+			}
+			.form-field{
+				display:flex;
+				flex-wrap:wrap;
+				width:80%;
+				padding:15px 5px 5px 5px;
+				
+			}
+			.form-field input{
+					border:none;
+					outline:none;
+					background:none;
+					font-size:15px;
+					font-weight:50;
+					color:black;
+					padding:20px 10px 20px 5px;
+					width:80%;
+					text-align:center;
+			}
+			.form-field textarea{
+				border:none;
+				height:150px;
+				width:200px;
+				resize:none;
+			}
+			.form-group{
+				width:100%;
+				float:left;
+				padding:0px 30px;
+				margin:14px 0px;
+				border-radius:25px;
+				box-shadow:-8px 8px 8px gray;
+				border-top:1px solid black;
+				display:flex;
+				flex-wrap:wrap;				
+				
+			}
+			.form-field .form-group:last-child{
+					width:95%;
+			}
+			.submit-button{
+					width:90%;
+					height:60px;
+					margin:0px 12px;
+					border-radius:30px;
+					font-size:20px;
+					font-weight:700;
+					outline:none;
+					cursor:pointer;
+					color:black;
+					text-align:center;
+					background:#F44770;
+					box-shadow:3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+					}
+			.submit-button:hover{
+				background:#31279d;
+			}
+/* menu*/
+	.cantainer1{
+		
+		padding:15px 40px;
+		padding-bottom:20px;
+		overflow:hidden;
+		text-align:center;
+	}
+	.cantainer1 .heading1{
+		text-align:center;
+		padding-bottom:20px;
+		color:black;
+		overflow:hidden;
+		
+	}
+	.cantainer1 .heading1 h3{
+		font-size:15px;
+		margin-left:-30px;
+	}
+	.cantainer1 .heading1 h4{
+		font-size:20px;
+		
+	}
+	.cantainer1 .box_cantainer1{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		text-align:center;
+		gap:10px;
+	}
+	.cantainer1 .box_cantainer1 .box1{
+					background:white;
+					box-shadow:5px 5px 6px black;
+					border-radius:10px 0px 20px 0px; 
+					width:40%;
+					height:5%;
+					display:flex;
+					flex-wrap:wrap;
+					margin:8px 30px;
+					padding:10px;
+					cursor:pointer;					
+	}
+	.cantainer1 .box_cantainer1 .box1 img{
+			width:15%;
+			height:auto;
+		}
+	.cantainer1 .box_cantainer1 .box1 p{
+			font-size:15px;
+			float:right; 
+		}
+		.cantainer1 .box_cantainer1 .box1 span{
+			background:red;
+			position:relative;
+			top:-30px;
+			height:40px;
+			padding-top:10px;
+			
+		}
+	.box1:hover{
+		box-shadow:5px 2px 6px black;
+		transform:scale(1.1);
+	}
+	.cantainer1 .icon2{
+		display:flex;
+		gap:30px;
+		justify-content:center;
+		margin:30px 0px;
+		}
+	.cantainer1 .icon2 p{
+		color:white;
+		font-size:15px;
+		position:absolute;
+		float:right
+		
+	}
+	
+/*botuum*/
+.bottum{
+		display:flex;
+		flex-wrap:wrap;
+		text-align:center;
+		gap:10px;
+		margin-top:30px;
+		background:red;
+		width:100%;
+		justify-content:space-evenly;
+}
+.bottum .bottum_box{
+	
+					padding:10px;
+					}
+.bottum .bottum_box i{
+	background:white;
+	color:red;
+	height:30px;
+	width:30px;
+	padding:8px;
+	border-radius:50%;
+	cursor:pointer;
+}
+.bottum .logo img{
+	position:relative;
+	width:10%;
+	height:50%;
+	margin-top:55px;
+	
+	margin-left:20px;
+}
+.bottum .bottum_box p{
+	width:100%;
+	text-align:right;
+	color:white;
+	margin-top:10px;
+	margin-left:10%;
+	position:relative;
+	font-size:13px;
+}
+
+@media only screen and (max-width:768px){
+	body{
+		overflow-x:hidden;
+	}
+   .nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  .nav ul{
+	
+    position:absolute;
+    top: 80px;
+    color:black;
+	right: -100%;
+    background: black;
+    height: 35%;
+    width: 45%;
+	border-radius:0px 0px 10px 10px;
+    z-index:2;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    right : 0;
+  }
+  .nav ul li{
+	color:white;
+    width: 50%;
+    margin: 1px 50px;
+	text-align:center;
+  }
+  .nav ul li a{
+    width: 100%;
+    margin-top: -100%;
+    display: block;
+    font-size:10px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-top: 0px;
+  }
+  .nav ul li a.active,
+  .nav ul li a:hover{
+    background: none;
+    color: red;
+  }
+  .home .img2{
+	
+	z-index:-1;
+  }
+	
+.cantainer1 .box_cantainer1 .box1{
+						width:100%;
+						
+		}
+		.cantainer1 .box_cantainer1 .box1 img{
+				width:20%;
+				height:auto;
+			}
+			
+		
+	.home_p button  {
+		padding:5xpx;
+		width:25%;
+		height:auto;
+		font-size:8px;
+	}
+	.logo1 img{
+			width:25%;
+	}
+	
+	.about{
+		width:100%;
+		height:auto;
+		display:block;
+		align-items:center;
+		
+	}
+	.about_h1 h3{
+        margin-left:-10%;		
+	    align-items:left;
+		font-size:10px;
+		width:30%;
+		
+	}
+	.about_h1 {
+		font-size:10px;
+		width:100%;
+		height:auto;
+		
+	}
+	.about_h1 p{
+		margin-top:-15%;
+		padding-top:-10%;
+		
+		font-weight:50px;
+		font-size:17px;
+		width:80%;
+	}
+	.about_h1 .images1{
+		width:50%;
+		height:40%;
+		position:relative;
+		display:flex;
+		top:-50px;
+		gap:10px;
+		padding:5px;
+	}
+	.box-wrapper{
+				width:90%
+	}
+    .info,
+	.form_wrap{
+			width:100%;
+			height:inherit;
+			float:none;
+		
+	}
+	.info{
+			border-radius:30px 30px 0px 0px ;
+		}
+		.form_wrap{
+			border-radius:0px 0px 30px 30px;
+			
+		}
+		.form-field textarea{
+			border:none;
+			height:150px;
+			width:100%;
+			resize:none;
+		}
+		.form-group{
+			width:100%;
+			float:none;
+			margin:25px 10px;
+		}
+		.form-field .form-group:last-child, .submit-button{
+				width:100%
+				
+		}
+		.submit-button{
+			margin:10px 0px;
+		}
+		
+	.video {
+		top:-10%;
+		margin-bottom:-5%;
+		width:100%;
+		height:70vh;
+		position:relative;
+		left:-25%;
+		align-items:center;
+		
+		}
+		.video img{
+			align-items:left;
+			width:300px;
+			height:80%;
+			padding:0%;
+			margin-bottom:-20%;
+			margin-top:-10%;
+			margin-left:30%;
+			}	
+/* bottum*/
+		.bottum .bottum_box{
+			position:relative;
+			gap:20px;
+			
+		}
+	.menu{
+		margin-top:90px;
+		width:100%;
+		height:100%;
+	}
+	.menu1{
+		font-size:10px;
+	}
+	.menu1 h4{
+		margin-left:-10%;		
+	    align-items:center;
+		font-size:15px;
+		width:35%;
+     `}
+	 .cantainer1 .box_cantainer1 .box1 span{
+		 margin-top:13px;
+	 }
+	.imges2{
+		padding:10%;
+	}
+	.imges2 h4{
+	padding:10%;
+		font-size:5px;
+		height:18px;
+		bottom:-35px;
+	}
+	.imges2 h5{
+		height:10px;
+		font-size:5px;
+	}
+	.ourchef h1{
+			font-size:25px;
+			width:80%;
+			padding-left:30px;
+		}
+	.cantainer .heading h1{
+		margin-top:20px;
+		font-size:25px;
+	}
+				
+ }
+ 
+ 
+@media screen and (min-width: 769px) and 
+(max-width:1000px){
+		.nav{
+		
+		}
+		.nav ul li a{
+			font-size:10px;
+			
+		}
+		.about_h1 h3{
+			width:100px;
+			font-size:10px;
+		}
+		.video img{
+			width:50%;
+			}
+ 
+  
+}
